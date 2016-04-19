@@ -1,12 +1,17 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "ES5",
+=======
+    "target": "es5",
+>>>>>>> 08a8c8ad136163bd8141cf6b135d1f02a63bc412
     "module": "system",
     "moduleResolution": "node",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
+<<<<<<< HEAD
     "noImplicitAny": false,
     "outDir": "./app"
   },
@@ -14,12 +19,21 @@
     "./dev/**/*.ts",
     "!./node_modules/**/*.ts"
   ],
+=======
+    "noImplicitAny": false
+  },
+>>>>>>> 08a8c8ad136163bd8141cf6b135d1f02a63bc412
   "exclude": [
     "node_modules",
     "typings/main",
     "typings/main.d.ts"
+<<<<<<< HEAD
   ],
   "atom": {
     "rewriteTsconfig": true
   }
 }
+=======
+  ]
+}
+>>>>>>> 08a8c8ad136163bd8141cf6b135d1f02a63bc412
