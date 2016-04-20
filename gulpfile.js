@@ -52,7 +52,7 @@ gulp.task('build-img', function () {
 });
 
 gulp.task('build-html', function () {
-    return gulp.src(appDev + '**/*.html')
+    return gulp.src(appDev + '**/*.template.html')
         .pipe(gulp.dest(appProd));
 });
 
