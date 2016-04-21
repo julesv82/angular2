@@ -1,4 +1,8 @@
 <h1>Hello World</h1>
 <input type="text" #name (keyup)="0"><br>
-<child [childName]="name.value"></child>
-<p>I'm {{name.value}}</p>
+<p>I'm a parent: {{name.value}}</p>
+<child [childName]="name.value" nickname="JimBob"></child>
+<button (click)="hasChild = !hasChild">
+  {{hasChild ? "Destroy" : "Create"}} InitComponent
+</button>
+<init-and-destroy *ngIf="hasChild"></init-and-destroy>
